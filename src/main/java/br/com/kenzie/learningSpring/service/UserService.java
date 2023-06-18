@@ -40,8 +40,6 @@ public class UserService {
         return userRepository.save(newUser);
     }
 
-
-
     public List<User> readUser(){
         return userRepository.findAll();
     }

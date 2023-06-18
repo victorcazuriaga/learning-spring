@@ -3,10 +3,6 @@ package br.com.kenzie.learningSpring.model;
 import jakarta.persistence.*;
 import org.hibernate.annotations.ColumnDefault;
 
-import java.util.UUID;
-
-import static java.lang.String.format;
-
 @Entity
 @Table(name="users")
 
